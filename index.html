@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Category Tabs</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="upper-image">
+                <img  class="logo" src="https://cdn.shopify.com/s/files/1/0564/3685/0790/files/laura-chouette-6Y2XstWtDvM-unsplash.jpg?v=1701946731" alt="Upper Image">
+            </div>
+            <div class="lower-images">
+              <div class="img-container"><img  src="https://cdn.shopify.com/s/files/1/0564/3685/0790/files/laura-chouette-HVlOLCHlzJs-unsplash.jpg?v=1701946732" alt="Lower Image 1" style="width:100%"></div>
+              <div class="img-container"><img  src="https://cdn.shopify.com/s/files/1/0564/3685/0790/files/laura-chouette-om8qxMDlGfI-unsplash.jpg?v=1701946732" alt="Lower Image 2" style="width:100%"></div>
+              <div class="img-container"><img  src="https://cdn.shopify.com/s/files/1/0564/3685/0790/files/laura-chouette-WQgvRkmqRrg-unsplash.jpg?v=1701946731" alt="Lower Image 3" style="width:100%"></div>
+              <div class="img-container"><img  src="https://cdn.shopify.com/s/files/1/0564/3685/0790/files/laura-chouette-HVlOLCHlzJs-unsplash.jpg?v=1701946732" alt="Lower Image 4" style="width:100%"></div>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <div class="part">
+                <h1 style="color: #B9BBBF; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word">Marmeto</h1>
+                 <p style="color: black; font-size: 28px; font-family: Inter; font-weight: 600; word-wrap: break-word">Embrace Sideboard</p>
+                 <hr style="border: 1px #E4E4E4 solid">
+            </div>
+             <div class="part">
+                 <div style="display:flex;justify-content: start;align-items: start;" class="discount">
+                    <h6 style="color: #3A4980; font-size: 34px; font-family: Inter; font-weight: 700; word-wrap: break-word; margin-top:-6px;" >$12999.00</h6>
+                    <h3 style="margin-top:-6px; margin-left:2px;margin-bottom:-6px;">35%</h3>
+                 </div>
+                 <h4 style="margin-top:-6px; margin-left:2px;margin-bottom:-6px;" ><s>$19999.00</s></h4>
+                 <hr style="border: 1px #E4E4E4 solid">
+             </div>
+
+             <div class="part">
+                 <h4 style="color: #B9BBBF;font-size: 16px;font-family: Inter;font-weight: 500;word-wrap: break-word;margin-top:-6px;">choose a color</h4>
+                 <div class="color-options">
+                     <div class="color-option" id="yellow" onclick="setColor('yellow')" style="background-color:#ECDECC;"></div>
+                     <div class="color-option" id="green" onclick="setColor('green')" style="background-color:#BBD278;"></div>
+                     <div class="color-option" id="blue" onclick="setColor('blue')" style="background-color:#BBC1F8;"></div>
+                     <div class="color-option" id="pink" onclick="setColor('pink')" style="background-color:#FFD3F8;"></div>
+                 </div>
+             </div>
+
+             <div class="part">
+             <label for="small"><input type="radio" id="small" name="size" value="Small"> Small</label>
+             <label for="medium"><input type="radio" id="medium" name="size" value="Medium"> Medium</label>
+             <label for="large"><input type="radio" id="large" name="size" value="Large"> Large</label>
+             <label for="extra-large"><input type="radio" id="extra-large" name="size" value="Extra large"> Extra Large</label>
+             <label for="xxl"><input type="radio" id="xxl" name="size" value="XXL"> XXL</label>
+             </div>
+
+             <div class="part">
+                 <div class="quantity-selector">
+                 <button class="decrease-btn">-</button>
+                 <input type="text" class="quantity-input" value="1" />
+                 <button class="increase-btn">+</button>
+                 <button class="add-to-cart-btn">Add to Cart</button>
+             </div>
+             </div>
+            <div style="width: 100%; color: #A3A3A3; font-size: 20px; font-family: Inter; font-weight: 300; line-height: 28px; word-wrap: break-word" class="part">The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive.
+                It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.<br/><br/></div>
+        </div>
+    </div>
+</body>
+</html>
+
+
